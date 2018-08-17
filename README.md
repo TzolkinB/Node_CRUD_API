@@ -11,3 +11,4 @@ https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minute
 
 Postman - used to mimic client side making requests because you can make HTTP
 requests with custom bodies and parameters
+mLab - database used 'node-notes'

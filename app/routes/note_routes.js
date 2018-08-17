@@ -32,6 +32,7 @@ module.exports = function(app, db) {
       if (err) {
         res.send({ 'error': 'An error has occured' });
       } else {
+        console.log(note);
         res.send(note);
       }
     });
@@ -48,5 +49,4 @@ module.exports = function(app, db) {
       }
     });
   });
-
 };
